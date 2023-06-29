@@ -4,6 +4,7 @@
     color: white;
     font-weight: bold;
     font-family: "Century Gothic"
+    flex-wrap: wrap;
 }
 
 .flex-container div {
@@ -12,6 +13,8 @@
     height: 100px;
     flex: auto;
     font-weight: 100;
+    flex-wrap: wrap;
+    flex-direction: row;
 }
 
 .flex-container .Descr {
@@ -19,4 +22,6 @@
     align-items: center;
     text-align: center;
     font-weight: 700;
+    flex-wrap: wrap;
+    flex-direction: column;
 }
