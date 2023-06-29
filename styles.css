@@ -1,0 +1,22 @@
+.flex-container {
+    display: flex;
+    background-color: olivedrab;
+    color: white;
+    font-weight: bold;
+    font-family: "Century Gothic"
+}
+
+.flex-container div {
+    background: mintcream;
+    border: 4px dotted olivedrab;
+    height: 100px;
+    flex: auto;
+    font-weight: 100;
+}
+
+.flex-container .Descr {
+    color: black;
+    align-items: center;
+    text-align: center;
+    font-weight: 700;
+}
